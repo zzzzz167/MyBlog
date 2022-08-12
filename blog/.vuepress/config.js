@@ -127,13 +127,13 @@ module.exports = {
         }),
         vuepressMeting({
             meting: {
-                server:"netease",
-                type:"playlist",
-                mid:"2919993727",
+                server: "netease",
+                type: "playlist",
+                mid: "2919993727",
             },
             aplayer: {
                 listFolded: true,
-                order:"random"
+                order: "random"
             }
         }),
     ]

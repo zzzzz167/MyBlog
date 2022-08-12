@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import "APlayer/dist/APlayer.min.css";
+import "aplayer/dist/APlayer.min.css";
 import { ref } from "vue";
 
 export default {
@@ -124,7 +124,7 @@ export default {
   methods: {
     initPlayer() {
       if (!__VUEPRESS_SSR__) {
-        import("APlayer").then((module) => {
+        import("aplayer").then((module) => {
           this.ap = new module.default({
             container: this.player,
             audio: this.audio,
