@@ -1,0 +1,21 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "一只快乐的小指针 <41528165+zzzzz167@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@moefy-canvas/theme-popper": "^0.3.3",
+    "aplayer": "^1.10.1",
+    "vuepress": "2.0.0-beta.48",
+    "vuepress-theme-gungnir": "^2.0.0-alpha.25"
+  },
+  "scripts": {
+    "dev": "vuepress dev blog --clean-cache",
+    "build": "vuepress build blog --clean-cache",
+    "clean": "rimraf blog/.vuepress/.temp blog/.vuepress/.cache blog/.vuepress/dist"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}

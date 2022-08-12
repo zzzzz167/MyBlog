@@ -1,0 +1,78 @@
+/*修改插件整体背景*/
+.aplayer {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 0 4px 0 0 !important;
+}
+
+.aplayer-body {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px);
+}
+
+/*修改列表正在播放的歌曲背景*/
+.aplayer-list-light {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px);
+}
+
+/*修改歌曲列表背景*/
+.aplayer-list {
+    border: 1px solid #f1f1f1 !important;
+    border-radius: 4px !important;
+}
+
+/*修改歌曲列表鼠标悬停时背景*/
+.aplayer-list li:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(15px);
+}
+
+/*删除底部歌曲播放信息边框*/
+.aplayer-info {
+    border: none !important;
+}
+
+/*删除歌曲列表边框*/
+.aplayer-list li {
+    border: none !important;
+}
+
+.aplayer-lrc {
+    p {
+        color: #d64541 !important;
+    }
+}
+
+html.dark {
+    .aplayer {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #e1e1e1;
+    }
+
+    .aplayer-list li:hover {
+        background: rgba(0, 0, 0, 0.5) !important;
+
+    }
+
+    .aplayer-list {
+        background: rgba(12, 12, 12, 0) !important;
+        border: 1px solid #0d0d0d !important;
+    }
+
+    .aplayer-list-light {
+        background: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .aplayer-pic {
+        -webkit-filter: brightness(.7) !important;
+        filter: brightness(.7) !important;
+    }
+
+    .aplayer-lrc::before {
+        background: none !important;
+    }
+
+    .aplayer-lrc::after {
+        background: none !important;
+    }
+}
