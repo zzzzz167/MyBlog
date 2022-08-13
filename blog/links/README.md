@@ -1,0 +1,11 @@
+---
+layout: Links
+title: Links
+links:
+  - title: 我滴朋友们
+    items:
+      - sitename: 红尘的小窝
+        url: https://github.com/Renovamen/flint
+        img: https://www.redlnn.top/assets/imgs/avatar.webp
+        desc: Red_lnn
+---
