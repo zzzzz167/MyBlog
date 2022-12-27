@@ -7,7 +7,6 @@ export default defineClientConfig({
     enhance({ app }) {
         app.component('APlayer', APlayer)
         app.component('Meting', Meting)
-        console.log(__METING_OPTIONS__.auto)
     },
     rootComponents: __METING_OPTIONS__.auto !== '' || __METING_OPTIONS__.type !== '' ? [MetingGlobal] : undefined
 })
