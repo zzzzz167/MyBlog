@@ -129,7 +129,7 @@ module.exports = {
             meting: {
                 server: "netease",
                 type: "playlist",
-                mid: "2919993727",
+                mid: "6940116169",
             },
             aplayer: {
                 listFolded: true,

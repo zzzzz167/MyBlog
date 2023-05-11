@@ -5,7 +5,7 @@ const vuepressMeting = (options = {}) => {
         name: 'vuepress-plugin-tip',
         define() {
             const {
-                metingApi = 'https://api.i-meto.com/meting/api',
+                metingApi = 'https://music-api-meting-api-englchqedl.cn-hangzhou.fcapp.run/api',
                 meting = {},
                 aplayer = {},
                 mobile = {},
